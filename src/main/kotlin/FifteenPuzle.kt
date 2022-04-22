@@ -134,7 +134,7 @@ class FifteenPuzzle() {
         return out
     }
 
-    //Метод, котрый решает головоломку при помощи алгоритма А*
+    //Метод, который решает головоломку при помощи алгоритма А*
     private fun aStarSolve(): List<FifteenPuzzle>? {
         val predecessor = HashMap<FifteenPuzzle, FifteenPuzzle?>()
         val depth = HashMap<FifteenPuzzle, Int>()
