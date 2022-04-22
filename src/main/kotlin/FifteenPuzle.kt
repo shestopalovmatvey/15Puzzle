@@ -93,7 +93,7 @@ class FifteenPuzzle() {
         return out
     }
 
-    //Метод, который перемешивает игровое поле
+    //Метод, который перемешивает игровое поле.
     private fun shuffle(howmany: Int) {
         for (i in 0 until howmany) {
             val possible = allValidMoves()
